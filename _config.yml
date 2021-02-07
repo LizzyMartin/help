@@ -2,6 +2,6 @@ title: "Sem pânico!"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
 search_enabled: false
-logo: "/assets/images/logo.png"
+logo: "/images/logo.png"
 ## baseurl: ""
 ## url: "https://lizzymartin.github.io"
