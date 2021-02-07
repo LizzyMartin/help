@@ -15,11 +15,11 @@ Com o objetivo de deixar mais organizado, cada tópico maior terá sua própria 
 
 1. [Visão geral do minilibx](/sem-panico/visaogeral.html)
 2. [Instalando e compilando um projeto com minbilibx](/sem-panico/instalando.html)
-3. [Inserindo um pixel]()
-4. [Inserindo um quadrado]()
-5. [Inserindo um círculo]()
-6. [Inserindo uma imagem xpm]()
-7. [Inserindo eventos]()
+3. [Inserindo um pixel]() WIP{: .label .label-yellow }
+4. [Inserindo um quadrado]() WIP{: .label .label-yellow }
+5. [Inserindo um círculo]() WIP{: .label .label-yellow }
+6. [Inserindo uma imagem xpm]() WIP{: .label .label-yellow }
+7. [Inserindo eventos]() WIP{: .label .label-yellow }
 
 Provavelmente muitos outros tópicos poderiam ser abordados, mas creio que com esses já dê para dar os primeiros passos.
 

@@ -6,7 +6,7 @@ nav_order: 2
 
 # Cub3d
 
-![wolf3d](/images/wolfen.gif){:style="float: right;margin-right: 7px;margin-top: 7px;"}
+![wolf3d](/images/wolfen.gif){:style="float: right;margin-right: 7px;margin-top: 7px; width: 20%;"}
 
 Esse projeto é inspirado no famoso jogo dos anos 90 Wolfenstein 3D. Ele permite explorar o _ray-casting_ e seu objetivo é fazer uma visualização dinâmica dentro de uma labirinto.
 
@@ -54,7 +54,7 @@ Considerações:
     - Se o tamanho declarado da tela for maior que a resolução do display, o tamanho da janela deverá ser definido dependendo da atual resolução do display;
     - O uso de imagens do minilibX é extremamente recomendado.
 - Seu programa deverá ter como primeiro argumento o arquivo da descrição da cena (extensão .cub)
-    - O mapa deve ser composto de apenas 4 possíveis caracteres: 0 para um espaço vazio, 1 para uma parede, 2 para um item e N, S, E ou W para a posição de inicio do jogador e sua orientação. Esse é um mapa simples válido: </br></br>
+    - O mapa deve ser composto de apenas 4 possíveis caracteres: 0 para um espaço vazio, 1 para uma parede, 2 para um item e N, S, E ou W para a posição de inicio do jogador e sua orientação. Esse é um mapa simples válido:
         ```shell
         111111
         100101
@@ -68,37 +68,37 @@ Considerações:
     - Exceto pelo mapa, cada tipo de informação do elemnto pode ser separado por um ou mais espaços;
     - O mapa deve ser parseado como ele é no arquivo. Espaços são partes válidas no mapa e você deve suporta-los. Você deve ser capaz de parsear qualquer tipo de mapa, desde que respeite as regras;
     - A primeira informação de cada elemento (exceto o mapa) é do tipo identificador (composto por um ou dois caracteres), seguido por todas as informações específicas para cada objeto em uma ordem, como:
-        - Resolução: </br>
-        ```R 1920 1080```</br>
+        - Resolução: <br/>
+        ```R 1920 1080```<br/>
         identificador: **R**
         x: tamanho da renderização (1920)
         y: tamanho da renderização (1080)
-        - Textura do norte:</br>
-        ```NO ./caminho_para_textura_norte```</br>
+        - Textura do norte:<br/>
+        ```NO ./caminho_para_textura_norte```<br/>
         identificador: **NO**
         caminho para a textura norte
-        - Textura do sul:</br>
-        ```SO ./caminho_para_textura_sul```</br>
+        - Textura do sul:<br/>
+        ```SO ./caminho_para_textura_sul```<br/>
         identificador: **SO**
         caminho para a textura sul
-        - Textura do oeste:</br>
-        ```WE ./caminho_para_textura_oeste```</br>
+        - Textura do oeste:<br/>
+        ```WE ./caminho_para_textura_oeste```<br/>
         identificador: **WE**
         caminho para a textura oeste
-        - Textura do leste:</br>
-        ```EA ./caminho_para_textura_leste```</br>
+        - Textura do leste:<br/>
+        ```EA ./caminho_para_textura_leste```<br/>
         identificador: **EA**
         caminho para a textura leste
-        - Textura do sprite:</br>
-        ```S ./caminho_para_textura_sprite```</br>
+        - Textura do sprite:<br/>
+        ```S ./caminho_para_textura_sprite```<br/>
         identificador: **S**
         caminho para a textura do sprite
-        - Cor do chão:</br>
-        ```F 220,100,0```</br>
+        - Cor do chão:<br/>
+        ```F 220,100,0```<br/>
         identificador: **F**
         cores R,G,B em um intervalo [0,255]: 0, 255, 255
-        - Cor do teto:</br>
-        ```C 255,30,0```</br>
+        - Cor do teto:<br/>
+        ```C 255,30,0```<br/>
         identificador: **C**
         cores R,G,B em um intervalo [0,255]: 0, 255, 255
     - Exemplo da parte obrigatória com uma cena **.cub** minimalista:
