@@ -1,3 +1,9 @@
+defaults:
+  - scope:
+      path: "images"
+    values:
+      image: true
+
 title: "Sem pânico!"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "light"
