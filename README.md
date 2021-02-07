@@ -1,6 +1,4 @@
 ---
-title: "Comece aqui!"
-has_children: false
 nav_order: 1
 ---
 
