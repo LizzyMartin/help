@@ -1,7 +1,7 @@
 ---
 title: Visão geral
-parent: cub3d
-grand_parent: Minilibx
+parent: Minilibx
+grand_parent: Cub3d
 has_children: false
 nav_order: 1
 ---
