@@ -1,7 +1,3 @@
----
-nav_order: 1
----
-
 ## Olá humano...
 
 !["Olá humano"](/images/marvin.jpg)
