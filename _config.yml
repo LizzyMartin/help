@@ -1,4 +1,6 @@
-title: "Remote theme example"
+title: "Sem pânico!"
 remote_theme: pmarsceill/just-the-docs
 color_scheme: "dark"
 search_enabled: false
+baseurl: ""
+url: "https://ian-goode.github.io"
