@@ -13,8 +13,8 @@ Se você chegou aqui é porque muito provavelmente está iniciando no minirt ou 
 
 Com o objetivo de deixar mais organizado, cada tópico maior terá sua própria páginas, você pode acessa-los pelo menu lateral ou na lista abaixo.
 
-1. [Visão geral do minilibx](/visaogeral.html)
-2. [Instalando e compilando um projeto com minbilibx](/instalando.html)
+1. [Visão geral do minilibx](/sem-panico/visaogeral.html)
+2. [Instalando e compilando um projeto com minbilibx](/sem-panico/instalando.html)
 3. [Inserindo um pixel]()
 4. [Inserindo um quadrado]()
 5. [Inserindo um círculo]()
