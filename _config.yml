@@ -10,5 +10,7 @@ color_scheme: "light"
 search_enabled: false
 logo: "/images/logo.png"
 search_enabled: true
+plugins:
+  - jemoji
 ## baseurl: ""
 ## url: "https://lizzymartin.github.io"
