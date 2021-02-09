@@ -1,6 +1,6 @@
 ## Olá humano...
 
-!["Olá humano"](/images/marvin.jpg)
+!["Olá humano"](/images/marvin.jpg){:style="float: right;margin-right: 7px;margin-top: 7px; width: 20%;"}
 
 Esse é meu cantinho onde armazeno minhas anotações e estudos sobre os projetos da 42cursus. Criei ele porque me localizo melhor em um site e resolvi deixar público já que talvez ajude outras pessoas. 
 
