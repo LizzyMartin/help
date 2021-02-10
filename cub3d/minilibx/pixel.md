@@ -38,7 +38,7 @@ Os três últimos bytes do inteiro são preenchidos dessa forma:
 
 ### Problemas com _endians_
 
-"Endian" and "endianness" (ou "ordem-de-bytes") descrevem como os computadores organizam os bytes que compõem os números.
+"Endian" e "endianness" (ou "ordem-de-bytes") descrevem como os computadores organizam os bytes que compõem os números.
 
 O mais comum na ordenação de múltiplos bytes em um único número é o **little-endian**, que é usado em todos os processadores Intel. Little-endian significa armazenar bytes na ordem do menor para o mais significativo (onde o byte menos significativo ocupa o primeiro, ou menor, endereço).
 
