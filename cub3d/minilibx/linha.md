@@ -13,6 +13,8 @@ Agora que sabemos como colocar um pixel em nossa janela, vamos avançar e tentar
 - A função **mlx_pixel_put** exige os parâmetros mlx e win, logo nossa função também precisará deles. Outro ponto a ser observado é que ela desenha um pixel a partir de uma dada coordenada (x, y), e o que uma linha é? Uma ligação entre dois pontos/duas coordenadas (x1,y1) e (x2,y2), dessa forma precisaremos passar 4 parâmetros que indicam: X do ínicio, Y do ínicio, X do final e Y do final.
 - O outro ponto é que precisamos de uma cor para a linha ser visível.
 
+**OBS:** A função mlx_pixel_put poderia ser substituida pela função que insere imagem :speak_no_evil:
+
 Assim, o protótipo da função pode ser dado por:
 ```c
 int draw_line(void *mlx, void *win, int beginX, int beginY, int endX, int endY,int color)
