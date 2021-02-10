@@ -7,3 +7,5 @@ nav_order: 4
 # ft_printf
 
 Work in progress
+
+![Printf introduction](images/printf.jpg)
