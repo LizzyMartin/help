@@ -6,7 +6,11 @@ nav_order: 1
 
 # Libft
 
-Libft é o primeiro projeto a ser entregue no 42-cursus. É composto por uma parte obrigatória (Mandatory part) e uma parte bônus. Em resumo, conforme o subject:
+Libft é o primeiro projeto a ser entregue no 42-cursus. É composto por uma parte obrigatória (Mandatory part) e uma parte bônus.
+
+[Download do subject](en.subject.pdf){: .btn .btn-green }
+
+Em resumo, conforme o subject:
 
 ```
 Nome do programa: libft.a

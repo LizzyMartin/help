@@ -6,7 +6,11 @@ nav_order: 2
 
 # Get Next Line
 
-O **get_next_line** é uma função que permite ler o conteúdo de um fd linha por linha. Em loop ele lê o arquivo até atingir o EOF. Os pontos principais para a realização do projeto são:
+O **get_next_line** é uma função que permite ler o conteúdo de um fd linha por linha. Em loop ele lê o arquivo até atingir o EOF. 
+
+[Download do subject](en.subject.pdf){: .btn .btn-green }
+
+Os pontos principais para a realização do projeto são:
 
 - funções open, read, close e gerenciamento do tamanho do buff.
 - variáveis estáticas.
