@@ -27,3 +27,15 @@ Olhando assim parece que ray-casting e ray-tracing são a mesma coisa. Na perspe
 
 Essa distinção acontece porque de forma geral o ray-casting é mais rápido que o ray-tracing. Isso é possível porque o ray-casting usa algumas limitações geométricas para acelerar o processo de renderização. Por exemplo: as paredes **são sempre perpendiculares** com o chão. 
 
+| RAY-CASTING | RAY-TRACING |
+|-|-|
+|**Princípio**: raios são cálculados e traçados em grupos baseado em limitações geométricas. Por exemplo: em um display de resolução 320x320, um ray-caster traça apenas 320 raios (o número 320 vêm do fato que o display tem uma resolução de 320 pixels horizontais, consequentemente 320 colunas verticais).  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+|  |  |
+
+
+Principle: rays are cast and tracedin groups based on some geometric constraints. For instance: on a 320×200 display resolution, a ray-caster traces only 320 rays (the number 320 comes from the fact that the display has 320 horizontal pixel resolution, hence 320 vertical column).
