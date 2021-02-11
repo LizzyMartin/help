@@ -6,7 +6,7 @@ has_children: false
 nav_order: 2
 ---
 
-# Instalando e compilando um projeto com minbilibx
+# Instalando e compilando um projeto com MinilibX
 
 Podemos compilar usando:
 
