@@ -36,7 +36,6 @@ Essa distinção acontece porque de forma geral o ray-casting é mais rápido qu
 |**Mundo**: limitado por uma ou mais limitações geométricas (somente figuras geométricas simples).  |**Mundo**: praticamente qualquer figura pode ser renderizada.  |
 |**Armazenamento**: pequeno, as imagens renderizadas não são armazenadas no disco. Normalmente, apenas o mapa é armazenado.  |**Armazenamento**: imagens renderizadas são armazenadas no disco e carregadas quando necessário.  |
 |![Raycasting example](images/raycasting.jpg) |![Raytracing example](images/raytracing.png)  |
-| | |
 
 ## Limitações do raycasting
 
