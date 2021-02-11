@@ -29,13 +29,19 @@ Essa distinção acontece porque de forma geral o ray-casting é mais rápido qu
 
 | RAY-CASTING | RAY-TRACING |
 |-|-|
-|**Princípio**: raios são cálculados e traçados em grupos baseado em limitações geométricas. Por exemplo: em um display de resolução 320x320, um ray-caster traça apenas 320 raios (o número 320 vêm do fato que o display tem uma resolução de 320 pixels horizontais, consequentemente 320 colunas verticais).  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+|**Princípio**: raios são cálculados e traçados em grupos baseado em limitações geométricas. Por exemplo: em um display de resolução 320x320, um ray-caster traça apenas 320 raios (o número 320 vêm do fato que o display tem uma resolução de 320 pixels horizontais, consequentemente 320 colunas verticais).  |**Princípio**: cada raio é traçado separadamente, então cada ponto (geralmente um pixel) no display é traçado por um raio. Por exemplo: em um display com resolução 320x320, um ray-tracer precisa traçar 320x320 (64.000) raios (isso é cerca de 200 vezes mais lento que o ray-casting).  |
+|**Fórmula**: em muitos casos, inexata.  |**Fórmula**: em muitos casos, exata.  |
+|**Velocidade**: muito rápido se comparado com o ray-tracing. Viável para processamento em tempo real.  |**Velocidade**: lenta, inviável para processamento em tempo real.  |
+|**Qualidade**: a imagem não é muito realista. Frequentemente elas são um bloco.  |**Qualidade**: a imagem é muito realista.  |
+|**Mundo**: limitado por uma ou mais limitações geométricas (somente figuras geométricas simples).  |**Mundo**: praticamente qualquer figura pode ser renderizada.  |
+|**Armazenamento**: pequeno, as imagens renderizadas não são armazenadas no disco. Normalmente, apenas o mapa é armazenado.  |**Armazenamento**: imagens renderizadas são armazenadas no disco e carregadas quando necessário.  |
+|![Raycasting example](images/raycasting.jpg) |![Raytracing example](images/raytracing.png)  |
+| | |
 
+## Limitações do raycasting
 
-Principle: rays are cast and tracedin groups based on some geometric constraints. For instance: on a 320×200 display resolution, a ray-caster traces only 320 rays (the number 320 comes from the fact that the display has 320 horizontal pixel resolution, hence 320 vertical column).
+Já saabemos que o ray casting é rápido porque utiliza limitações geométricas. Em muitos casos, as paredes sempre fazem 90 graus com o chão. Outra limitação existente é que um ponto de vista não pode ser rotacionado pelo eixo Z. Se isso fosse permitido, então as paredes poderiam ser inclinadas e o benefício de desenhar em pedaços verticais seria perdido. Essa inabilidade de rotacionar pelo eixo Z é uma das razões pelo qual o ambiente ray-casting não é considerado um ambiente real 3D.
+
+Em um ambiente ray-casting, o jogador pode se mover para frente, trás e rotacionar para esquerda ou direita, mas não pode rotacionar pelo eixo Z conforme mostra a figura abaixo:
+
+![Raytracing example](images/limitacao.jpg){:style="display: block; margin: 0 auto;"}
