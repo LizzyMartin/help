@@ -356,4 +356,4 @@ int main(void)
 
 ## Resultado
 
-![Resultado :)](images/finalmap.png){:style="display: block; margin: 0 auto;"}
+![Resultado :)](images/finalmap.png)
