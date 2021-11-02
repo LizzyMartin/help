@@ -10,7 +10,7 @@ nav_order: 1
 
 Bom, acho que a primeira coisa que deve ser esclarecida é por que falar de complexidade? Acho que lendo o *subject* já dá para ter uma noção: precisamos fazer o push_swap usar a menor quantidade de movimentos possível! Ainda não ficou claro? Para sua sorte eu irei passar brevemente por todos os tópicos que considero importante a respeito do assunto. Borá lá! 👀
 
-![Boraaaaaaaaa](images/time-anime.gif)
+![Boraaaaaaaaa](../images/time-anime.gif)
 
 ## O tempo
 
