@@ -23,3 +23,9 @@ Certo, temos uma brincadeira que envolve sorte, já que pode acontecer de você 
 > Agora imagine que a menina pode responder com "Muito baixo" ou "Muito alto". O que muda?
 
 Muda que isso já facilita muito nossa vida! Digamos que chutamos o número 23 e a menina diz "Muito alto", com isso já sabemos que todos os números depois do 23 podem ser descartados, restanto apenas os números entre 0 e 22. 
+
+![Ó grandão](../images/big-o-anime.gif)
+
+## A notação Big O
+
+In progress
