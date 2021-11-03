@@ -6,11 +6,13 @@ has_children: false
 nav_order: 1
 ---
 
-# Complexidade do código
+# Complexidade do código [DOING]
 
 Bom, acho que a primeira coisa que deve ser esclarecida é por que falar de complexidade? Acho que lendo o *subject* já dá para ter uma noção: precisamos fazer o push_swap usar a menor quantidade de movimentos possível! Ainda não ficou claro? Para sua sorte eu irei passar brevemente por todos os tópicos que considero importante a respeito do assunto. Borá lá! 👀
 
-![Boraaaaaaaaa](../images/time-anime.gif)
+<p align="center">
+  <img src="../images/time-anime.gif">
+</p>
 
 ## O tempo
 
@@ -24,7 +26,9 @@ Certo, temos uma brincadeira que envolve sorte, já que pode acontecer de você 
 
 Muda que isso já facilita muito nossa vida! Digamos que chutamos o número 23 e a menina diz "Muito alto", com isso já sabemos que todos os números depois do 23 podem ser descartados, restanto apenas os números entre 0 e 22. 
 
-![Ó grandão](../images/big-o-anime.gif)
+<p align="center">
+  <img src="../images/big-o-anime.gif">
+</p>
 
 ## A notação Big O
 

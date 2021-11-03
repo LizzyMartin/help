@@ -6,6 +6,18 @@ has_children: false
 nav_order: 3
 ---
 
-# Ordenação
+# Ordenação [TO - DO]
 
-to do
+- Quicksort
+- Mergesort
+- Timsort
+- Heapsort
+- Bubble sort
+- Insertion sort
+- Selection sort
+- Tree sort
+- Shell sort
+- Bucket sort
+- Radix sort
+- Counting sort
+- Cubesort
