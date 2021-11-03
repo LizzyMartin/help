@@ -27,17 +27,25 @@ Certo, temos uma brincadeira que envolve sorte, já que pode acontecer de você 
 Muda que isso já facilita muito nossa vida! Digamos que chutamos o número 23 e a menina diz "Muito alto", com isso já sabemos que todos os números depois do 23 podem ser descartados, restanto apenas os números entre 0 e 22. Assim, com um chute já conseguimos descartar metade das tentativas, sendo mais precisa, levamos log<sub>2</sub>n tempo. Bem menos complexo, não é?
 
 <p align="center">
-    <img src="../images/tempo.svg">
+    <img src="../images/tempo.svg" width="300px">
 </p>
 
 ## A notação Big O
 
-In progress
+Uhul, já sabemos sobre o tempo, agora vamos saber mais sobre o Ó grandão \o/ De forma resumida direta e prática, a notação Big O vai dizer o quão rápido nosso algoritmo é. Vamos voltar para nossos doias casos descritos lá em cima. O primeiro caso teria um tempo na notação big O de O(_n_), pois dado n entradas, ele leva essas n entradas de duração. Já o segundo caso seria O(_log<sub>2</sub>n_). Essa notação mostra o número de operações que são feitas. Ela informa o __quão rápido nosso algoritmo vai crescer :3__
 
+Sendo assim, temos:
 <p align="center">
-  <img src="../images/big-o-anime.gif">
+    <img src="../images/bigo.svg" width="300px">
 </p>
+
+Curiosidade:
+Essa notação é chamada de "Big O" simplesmente porque colocamos esse Ó grandão na frente do número de operações.
 
 ## Referências
 
 - Entendendo algoritmos - Aditya Y. Bhargava
+
+<p align="center">
+  <img src="../images/big-o-anime.gif">
+</p>
