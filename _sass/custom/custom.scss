@@ -6,3 +6,12 @@
     font-family: "Cascadia";
     src: url("https://excalidraw.com/Cascadia.woff2");
 }
+
+
+blockquote {
+  margin: 0px;
+  text-align: center;
+  background: repeating-linear-gradient(#fff7e9, #fff7e9 20px, #7a7a7a40 23px, #a8a8a8 13px);
+  padding: 3px;
+  font-family: Virgil;
+}

@@ -23,3 +23,14 @@ Alguns dos usos de pilha são: controle de acesso às páginas visitadas em um n
   <img src="../images/stack-anime.gif">
 </p>
 
+## Implementando uma pilha
+
+```c
+typedef int Itemp;
+
+typedef struct pilha {
+   int    max;
+   int    topo;
+   Itemp *item;
+} *Pilha;
+```
